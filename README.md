@@ -1,8 +1,8 @@
-# Matic Mainnet
+# Shibarium Mainnet
 
-## The Matic mainnet v1 launch
+## The Shibarium mainnet v1 launch
 
-The Matic Foundation is releasing the genesis information for the Matic mainnet along with associated Release software.
+The Shibarium Foundation is releasing the genesis information for the Shibarium mainnet along with associated Release software.
 
 Please be aware that there is no guarantee a network will start from this recommendation - nodes and validators may never come online, the community may disregard the recommendation and choose different genesis files, and/or they may modify the software in arbitrary ways. Such outcomes and many more are outside the Matic Foundation's control and completely in the hands of the community.
 
