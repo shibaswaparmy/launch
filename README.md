@@ -4,7 +4,7 @@
 
 The Shibarium Foundation is releasing the genesis information for the Shibarium mainnet along with associated Release software.
 
-Please be aware that there is no guarantee a network will start from this recommendation - nodes and validators may never come online, the community may disregard the recommendation and choose different genesis files, and/or they may modify the software in arbitrary ways. Such outcomes and many more are outside the Matic Foundation's control and completely in the hands of the community.
+Please be aware that there is no guarantee a network will start from this recommendation - nodes and validators may never come online, the community may disregard the recommendation and choose different genesis files, and/or they may modify the software in arbitrary ways. Such outcomes and many more are outside the Shibarium's Foundation's control and completely in the hands of the community.
 
 The recommended genesis file is `genesis.json`. It has the following SHA256 hash:
 
