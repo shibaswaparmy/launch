@@ -1,6 +1,6 @@
 {
   "genesis_time": "2023-01-02T03:45:25.476529084Z",
-  "chain_id": "heimdall-517",
+  "chain_id": "heimdall-6968",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -286,7 +286,7 @@
               "accum": "10000"
             }
           ],
-          "bor_chain_id": "517"
+          "bor_chain_id": "6968"
         }
       ]
     },
@@ -295,7 +295,7 @@
         "mainchain_tx_confirmations": "6",
         "maticchain_tx_confirmations": "10",
         "chain_params": {
-          "bor_chain_id": "517",
+          "bor_chain_id": "6968",
           "matic_token_address": "0x664456257bC8cfFc605C74Ab8Fea6bd04CCe3BB6",
           "staking_manager_address": "0x2160a4A99be81932962327351bC78DA863020581",
           "slash_manager_address": "0xb5745c98E86FBB62574103e0C38AfDb6E5BD456F",

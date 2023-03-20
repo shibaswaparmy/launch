@@ -87,7 +87,7 @@ fi
 chainId=$(bor attach ~/.bor/data/bor.ipc --exec admin.nodeInfo.protocols.eth.config.chainId ) # 137
 jaipurBlock=$(bor attach ~/.bor/data/bor.ipc --exec admin.nodeInfo.protocols.eth.config.bor.jaipurBlock) # 23850000
 
-if [ "$chainId" -ne "137" ] || [ "$jaipurBlock" -ne  "23850000" ]; then
+if [ "$chainId" -ne "6968" ] || [ "$jaipurBlock" -ne  "23850000" ]; then
  echo -e "\e[31mBor is not init with correct Genesis."
 fi
 
