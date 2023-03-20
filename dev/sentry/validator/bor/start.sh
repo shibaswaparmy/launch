@@ -20,8 +20,8 @@ bor --datadir $DATA_DIR \
   --http.port 8545 \
   --ipcpath $DATA_DIR/bor.ipc \
   --http.api 'eth,net,web3,txpool,bor' \
+  --networkid '417' \
   --syncmode 'full' \
-  --networkid '719' \
   --miner.gaslimit '20000000' \
   --miner.gastarget '20000000' \
   --txpool.nolocals \
@@ -34,7 +34,7 @@ bor --datadir $DATA_DIR \
   --unlock $ADDRESS \
   --password $BOR_DIR/password.txt \
   --allow-insecure-unlock \
-  --maxpeers 200 \
+  --nodiscover --maxpeers 1 \
   --metrics \
   --pprof --pprof.port 7071 --pprof.addr '0.0.0.0' \
   --mine
