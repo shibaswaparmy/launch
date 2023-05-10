@@ -71,7 +71,7 @@ fi
 
 # //check if eth_rpc_url is working
 if [ "$node" = "validator" ]; then
- eth_rpc_url=$(cat .heimdalld/config/heimdall-config.toml | grep 'eth_rpc_url' | awk '{printf $3}')
+ eth_rpc_url=$(cat ~/.heimdalld/config/heimdall-config.toml | grep 'eth_rpc_url' | awk '{printf $3}')
  eth_rpc_url="${eth_rpc_url:1:${#eth_rpc_url}-2}"
  data=$(curl -X POST $eth_rpc_url --data  '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}' -s)
  if [ -z "$data" ];
