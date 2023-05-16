@@ -9,7 +9,7 @@ if [ -z "$1" ]
 fi
 
 ADDRESS=$1
-BOR_DIR=${BOR_DIR:-~/.bor}
+BOR_DIR=${BOR_DIR:-/data/bor}
 DATA_DIR=$BOR_DIR/data
 
 bor --datadir $DATA_DIR \

@@ -1,8 +1,9 @@
 #!/usr/bin/env sh
 
 # set -x #echo on
-
-BOR_DIR=${BOR_DIR:-~/.bor}
+sudo mkdir /data
+chown -R ubuntu:ubuntu /data
+BOR_DIR=${BOR_DIR:-/data/bor}
 DATA_DIR=$BOR_DIR/data
 NODE_KEY=~/nodekey
 
