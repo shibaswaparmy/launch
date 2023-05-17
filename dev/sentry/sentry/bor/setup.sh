@@ -1,8 +1,19 @@
 #!/usr/bin/env sh
 
 # set -x #echo on
+DIR="/data"
+USERNAME="ubuntu"
 
-BOR_DIR=${BOR_DIR:-~/.bor}
+# Check if /data directory exists
+if [ ! -d "$DATA_DIR" ]; then
+    # Create /data directory
+    sudo mkdir "$DATA_DIR"
+fi
+
+# Set owner as ubuntu:ubuntu
+sudo chown -R "$USERNAME":"$USERNAME" "$DIR"
+
+BOR_DIR=${BOR_DIR:-/data/bor}
 DATA_DIR=$BOR_DIR/data
 NODE_KEY=~/nodekey
 

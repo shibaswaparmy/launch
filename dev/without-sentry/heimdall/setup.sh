@@ -1,8 +1,17 @@
 #!/usr/bin/env sh
+DIR="/data"
+USERNAME="ubuntu"
+
+# Check if /data directory exists
+if [ ! -d "$DATA_DIR" ]; then
+    # Create /data directory
+    sudo mkdir "$DATA_DIR"
+fi
+
+# Set owner as ubuntu:ubuntu
+sudo chown -R "$USERNAME":"$USERNAME" "$DIR"
 
 NODE_DIR=$HOME/node
-sudo mkdir /data
-chown -R ubuntu:ubuntu /data
 HEIMDALL_HOME=/data/heimdalld
 
 # init heimdall node
