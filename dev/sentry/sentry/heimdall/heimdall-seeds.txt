@@ -1,1 +1,1 @@
-persistent_peers = "004c7b9ae8e3bc7ad06cdd379c5c704516992ffb@preprodnew-heimdall-seed-1-3ea0463ec49e3ab5.elb.us-east-1.amazonaws.com:26656,c70522113bcc87a73b1603bb1ad0bed1a6a1bbd2@preprodnew-heimdall-seed-1-3ea0463ec49e3ab5.elb.us-east-1.amazonaws.com:26656"
+seeds = "2458c6e0719994b667298b67af1a607f0f4d5f43@52.6.145.99:26656,695cc05b5bea39cbcb2df3465e1f9292981521e2@52.6.79.52:26656,ffa4fe4fdbb0c02e7acaecc96d2d57c234726fff@54.237.88.44:26656,67966d02dd5dc1da6cfd7ee1b58afcbc1af89df4@75.101.231.169:26656,cc23fe77572ef92a34cf26e3512b13b84d7a9be4@50.16.175.79:26656"
