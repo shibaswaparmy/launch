@@ -21,7 +21,7 @@ bor --datadir $DATA_DIR \
   --ipcpath $DATA_DIR/bor.ipc \
   --http.api 'eth,net,web3,txpool,bor' \
   --syncmode 'full' \
-  --networkid '719' \
+  --networkid '157' \
   --miner.gaslimit '20000000' \
   --miner.gastarget '20000000' \
   --txpool.nolocals \
